@@ -5,6 +5,7 @@ body {
 .trafic-lights-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .container {
@@ -12,27 +13,27 @@ body {
 }
 
 .redbox {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: red;
-  margin: 16px;
+  margin: 20px;
   border: solid darkred 20px;
 }
 
 .yellowbox {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: yellow;
-  margin: 16px;
+  margin: 20px;
   border: solid darkgoldenrod 20px;
 
 }
 
 .greenbox {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: green;
-  margin: 16px;
+  margin: 20px;
   border: solid darkgreen 20px;
 }
 
@@ -47,10 +48,10 @@ body {
 }
 
 .redbox2 {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: red;
-  margin: 16px;
+  margin: 20px;
   border: solid darkred 20px;
   display: flex;
   justify-content: end;
@@ -65,10 +66,10 @@ body {
 
 
 .yellowbox2 {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: yellow;
-  margin: 16px;
+  margin: 20px;
   border: solid darkgoldenrod 20px;
   display: flex;
   justify-content: end;
@@ -83,10 +84,10 @@ body {
 
 
 .greenbox2 {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: green;
-  margin: 16px;
+  margin: 20px;
   border: solid darkgreen 20px;
   display: flex;
   justify-content: start;
